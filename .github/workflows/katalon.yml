@@ -1,3 +1,14 @@
-- name: Katalon Studio
-    uses: katalon-studio/katalon-studio-github-action@v3.0
-            
+- name: Readme Pytest Report
+  # You may pin to the exact commit or the version.
+  # uses: als0m3/Readme-Pytest-Report@79e05665d2dffa57d36af166bf2eaddfa2b73f4f
+  uses: als0m3/Readme-Pytest-Report@testing_0.0.6
+  with:
+    # github username
+    username: # default is 
+    # github user token
+    user-token: # default is 
+    # github repo
+    repo: # default is 
+    # github repo branch
+    branch: # default is 
+          
